@@ -50,7 +50,7 @@ export default function Hero({ id }) {
               <SocialIcon
                 network="telegram"
                 fgColor="white"
-                url=""
+                url="https://t.me/+nFenPblLbVhlNzNk"
                 style={{ height: 80, width: 80 }}
               ></SocialIcon>
               <Link href="">
