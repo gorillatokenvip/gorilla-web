@@ -15,13 +15,16 @@ export default function Contact() {
         <div className="font-outline-1 w-full flex items-center justify-center text-white text-[80px] py-12">
           contact us
         </div>
-
-        <div className="flex justify-center items-center">
+      
+        <div className="flex flex-col text-xl  text-white justify-center items-center">
           <Image width={180} src={logo} className="mb-4" />
-         
+           <div>mail: 1@gorillatoken.vip</div>
+           <div>telegram: https://t.me/+nFenPblLbVhlNzNk</div>
+           <div>twitter: https://twitter.com/gorillatokeneth</div>
+    
         </div>
         <div className=" w-full justify-center items-center flex space-x-8 pt-8">
-        <SocialIcon url="" network="telegram" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
+        <SocialIcon url="https://t.me/+nFenPblLbVhlNzNk" network="telegram" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
         <SocialIcon url="https://twitter.com/gorillatokeneth" network="twitter" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
 
         <SocialIcon network="discord" bgColor="white" style={{ height: 100, width: 100 }}></SocialIcon>
