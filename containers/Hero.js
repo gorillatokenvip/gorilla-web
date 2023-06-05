@@ -11,9 +11,10 @@ import logo from "../public/assets/logo1.2.png";
 
 export default function Hero({ id }) {
   return (
+    <div className="flex flex-col justify-center items-center">
     <div
       id={id}
-      className="pt-32 px-20 md:py-80 md:flex text-xl justify-between md:justify-start md:items-center w-screen h-screen bg-hero1 bg-cover bg-center "
+      className="pt-32 px-20 md:flex text-xl justify-between md:justify-start md:items-center w-screen h-screen bg-hero1 bg-cover bg-center "
     >
       <div className="w-full h-1/2 md:h-full flex items-center md:pl-24 text-black justify-center">
         <div className={rubik.className}>
@@ -72,6 +73,9 @@ export default function Hero({ id }) {
       >
         <Image src={logo} className="md:mb-48 w-[300px] md:w-[500px]"></Image>
       </motion.div>
+      
     </div>
+    <div className="p-8 text-white font-bold text-2xl border-2 border-red-500  mb-8">
+    <div className={rubik.className}>Contract Address : 0x3411ff1fd2e8a5ae6f2390aa59edcc21a96c9547</div></div></div>
   );
 }
